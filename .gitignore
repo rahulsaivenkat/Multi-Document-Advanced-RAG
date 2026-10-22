@@ -1,0 +1,28 @@
+# Environment variables
+.env
+.env.local
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Application Data & Storage
+data/uploads/*
+!data/uploads/.gitkeep
+data/storage/*
+!data/storage/.gitkeep
+data/test_storage/
+
+# IDEs
+.vscode/
+.idea/
